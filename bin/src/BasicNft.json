@@ -1,0 +1,142 @@
+{
+    "contractName": "BasicNft",
+    "abi": [
+        {
+            "inputs": [],
+            "name": "aga",
+            "outputs": [
+                {
+                    "internalType": "uint256",
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        }
+    ],
+    "metadata": "{\"compiler\":{\"version\":\"0.8.27+commit.40a35a09\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"aga\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/Users/fabiandiaz/github-repos/foundry-nft-f23/src/BasicNft.sol\":\"BasicNft\"},\"evmVersion\":\"cancun\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[],\"viaIR\":true},\"sources\":{\"/Users/fabiandiaz/github-repos/foundry-nft-f23/src/BasicNft.sol\":{\"keccak256\":\"0x7f18810a20a9b74ffbd2b4adf47b6933633eb0ff148f8a4e775fe2f9ba81e790\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://1103234e314e2e2b010f0c47fcbe668c95a5c9e42698086225271d58c29d51d3\",\"dweb:/ipfs/QmXMjNqyVocJp6wWC2hjJmgoCcAc6ZyZ1HVdkh2QEJ7Nkg\"]}},\"version\":1}",
+    "bytecode": "608080604052346013576074908160188239f35b5f80fdfe60808060405260043610156011575f80fd5b5f3560e01c63b1c85940146023575f80fd5b34603a575f366003190112603a576020905f548152f35b5f80fdfea2646970667358221220609fdef793a4c3d931b37448815dfe979afe4ff1ff4beb255b427fe3923c8a1064736f6c634300081b0033",
+    "deployedBytecode": "60808060405260043610156011575f80fd5b5f3560e01c63b1c85940146023575f80fd5b34603a575f366003190112603a576020905f548152f35b5f80fdfea2646970667358221220609fdef793a4c3d931b37448815dfe979afe4ff1ff4beb255b427fe3923c8a1064736f6c634300081b0033",
+    "sourceMap": "58:85:0:-:0;;;;;;;;;;;;;;;;;",
+    "deployedSourceMap": "58:85:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;58:85:0;;;;;;;;;;;;;;",
+    "sourcePath": "/Users/fabiandiaz/github-repos/foundry-nft-f23/src/BasicNft.sol",
+    "compiler": {
+        "name": "solc",
+        "version": "0.8.27+commit.40a35a09"
+    },
+    "ast": {
+        "absolutePath": "/Users/fabiandiaz/github-repos/foundry-nft-f23/src/BasicNft.sol",
+        "exportedSymbols": {
+            "BasicNft": [
+                6
+            ]
+        },
+        "id": 7,
+        "license": "MIT",
+        "nodeType": "SourceUnit",
+        "nodes": [
+            {
+                "id": 1,
+                "literals": [
+                    "solidity",
+                    "0.8",
+                    ".27"
+                ],
+                "nodeType": "PragmaDirective",
+                "src": "33:23:0"
+            },
+            {
+                "abstract": false,
+                "baseContracts": [],
+                "canonicalName": "BasicNft",
+                "contractDependencies": [],
+                "contractKind": "contract",
+                "fullyImplemented": true,
+                "id": 6,
+                "linearizedBaseContracts": [
+                    6
+                ],
+                "name": "BasicNft",
+                "nameLocation": "67:8:0",
+                "nodeType": "ContractDefinition",
+                "nodes": [
+                    {
+                        "constant": false,
+                        "functionSelector": "b1c85940",
+                        "id": 3,
+                        "mutability": "mutable",
+                        "name": "aga",
+                        "nameLocation": "97:3:0",
+                        "nodeType": "VariableDeclaration",
+                        "scope": 6,
+                        "src": "82:18:0",
+                        "stateVariable": true,
+                        "storageLocation": "default",
+                        "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                        },
+                        "typeName": {
+                            "id": 2,
+                            "name": "uint256",
+                            "nodeType": "ElementaryTypeName",
+                            "src": "82:7:0",
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_uint256",
+                                "typeString": "uint256"
+                            }
+                        },
+                        "visibility": "public"
+                    },
+                    {
+                        "constant": false,
+                        "id": 5,
+                        "mutability": "mutable",
+                        "name": "ownerOfTheContract",
+                        "nameLocation": "122:18:0",
+                        "nodeType": "VariableDeclaration",
+                        "scope": 6,
+                        "src": "106:34:0",
+                        "stateVariable": true,
+                        "storageLocation": "default",
+                        "typeDescriptions": {
+                            "typeIdentifier": "t_address",
+                            "typeString": "address"
+                        },
+                        "typeName": {
+                            "id": 4,
+                            "name": "address",
+                            "nodeType": "ElementaryTypeName",
+                            "src": "106:7:0",
+                            "stateMutability": "nonpayable",
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_address",
+                                "typeString": "address"
+                            }
+                        },
+                        "visibility": "private"
+                    }
+                ],
+                "scope": 7,
+                "src": "58:85:0",
+                "usedErrors": [],
+                "usedEvents": []
+            }
+        ],
+        "src": "33:111:0"
+    },
+    "functionHashes": {
+        "aga()": "b1c85940"
+    },
+    "gasEstimates": {
+        "creation": {
+            "codeDepositCost": "23200",
+            "executionCost": "81",
+            "totalCost": "23281"
+        },
+        "external": {
+            "aga()": "2241"
+        }
+    }
+}
