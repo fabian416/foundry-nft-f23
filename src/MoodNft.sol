@@ -22,4 +22,6 @@ contract MoodNft {
         _safeNft(msg.sender, s_tokenCounter);
         s_tokenCounter++;
     }
+
+    function tokenUri(uint256 tokenId) public view returns (string memory) {}
 }
