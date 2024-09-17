@@ -9,17 +9,16 @@ contract MoodNft {
     string private s_sadSvg;
     string private s_happySvg;
 
-    constructor(
-        string memory sadSvg,
-        string memory happySvg
-    ) ERC721("MoodNft", "MN") {
-        s_tokenCounter = 0;
-        s_sadSvg = sadSvg;
-        s_happySvg = happySvg;
-    }
+    //   constructor(
+    //     string memory sadSvg,
+    //) ERC721("MoodNft", "MN") {
+    //  s_tokenCounter = 0;
+    // s_sadSvg = sadSvg;
+    //  s_happySvg = happySvg;
+    //}
 
     function mintNft() public {
-        _safeNft(msg.sender, s_tokenCounter);
+        //   _safeNft(msg.sender, s_tokenCounter);
         s_tokenCounter++;
     }
 
